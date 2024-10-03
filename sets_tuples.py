@@ -161,6 +161,7 @@ print(sample_list_of_lists["lists"][0][2]) ## 3
 sample_list_of_dicts = {"dicts": [{"name": "Alice", "age": 25}, {"name": "Bob", "age": 30}, {"name": "Charlie", "age": 35}]}
 # Extract and print the age of the second person
 print(sample_list_of_dicts["dicts"][1]["age"]) ## Output: 30 
+print(sample_list_of_dicts["dicts"][2]["age"])
 
 
 
@@ -175,6 +176,7 @@ data = {
 
 # Extract and print the second item from the 'tropical' list
 print(data["fruits"]["tropical"][1])  # Output: 'pineapple'
+print(data["prices"]["pineapple"])
 
 
 
